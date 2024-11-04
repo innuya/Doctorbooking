@@ -1,0 +1,20 @@
+.doc-home {
+  display: flex;
+}
+.hombg {
+  width: 100%;
+  background-image: url('../../../public/blue-earth.jpg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .hombg {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .hombg {
+    height: 50vh;
+  }
+}
